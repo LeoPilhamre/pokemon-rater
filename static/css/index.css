@@ -69,6 +69,65 @@
 }
 
 
+.tutorial-wrapper {
+    height: 45vh;
+}
+.tutorial-wrapper > div {
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.tutorial-content {
+    list-style: none;
+}
+.tutorial-content li {
+    padding: 10px 0px;
+}
+.tutorial-content li:nth-child(1) h4 {
+    color: #FF7F7F;
+}
+.tutorial-content li:nth-child(2) h4 {
+    color: #FFBF7F;
+}
+.tutorial-content li:nth-child(3) h4 {
+    color: #FFDF7F;
+}
+.tutorial-content li:nth-child(4) h4 {
+    color: #FFFF7F;
+}
+.tutorial-content li:nth-child(5) h4 {
+    color: #BFFF7F;
+}
+.tutorial-content span.btn {
+    color: #93F5E6;
+    border: 2px solid #93F5E6;
+    border-radius: 10px;
+    padding: 0px 5px;
+}
+.tutorial-content a {
+    color: #93F5E6;
+    font-size: 10px;
+    transition: all 100ms;
+}
+.tutorial-content a:hover {
+    color: #6da89f;
+    text-decoration: none;
+}
+.tutorial-content h4 {
+    font-family: 'pokemon-solid', sans-serif;
+    float: left;
+}
+.tutorial-content h5, .tutorial-content h6 {
+    font-family: 'pokemon-hollow', sans-serif;
+    letter-spacing: 5px;
+}
+.tutorial-content h6 {
+    font-size: 7px;
+    font-style: italic;
+}
+
 
 .cards-wrapper {
     height: 35vh;
